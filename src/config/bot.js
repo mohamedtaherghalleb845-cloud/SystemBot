@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "invisible",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -201,10 +201,10 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: "1486344840647151706",
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1486344581866848347],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -239,10 +239,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: null,
+    archiveCategory: "1486500146857382171",
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: "1486500257243201536",
   },
 
   // =========================
@@ -259,12 +259,12 @@ export const botConfig = {
 
     // Allowed giveaway duration range in milliseconds.
     // 300000 = 5 minutes.
-    minimumDuration: 300000, 
+    minimumDuration: 2000, 
     // 2592000000 = 30 days.
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1486344814818627675],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
